@@ -5,10 +5,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FirsMarket - Каталог товаров</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">FirsMarket</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <button><i class="fas fa-search"></i></button>
+                    <button><i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header" style="padding: var(--spacing-xl) 0; background: var(--light-bg);">
+        <div class="container">
+            <h1 class="section-title" style="margin-bottom: 0;">Каталог товаров</h1>
+        </div>
+    </section>
+
+    <section class="catalog" style="padding: var(--spacing-xl) 0;">
+        <div class="container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="img/product-1.jpg" alt="iPhone 12 64Gb">
+                    <h3>iPhone 12 64Gb</h3>
+                    <div class="price">34 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>4.5</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/product-2.jpg" alt="iPhone 13 512Gb">
+                    <h3>iPhone 13 512Gb</h3>
+                    <div class="price">51 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>5.0</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/product-3.jpg" alt="iPhone 15 Plus 128Gb">
+                    <h3>iPhone 15 Plus 128Gb</h3>
+                    <div class="price">55 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="far fa-star"></i>
+                        <span>4.0</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/product-4.jpg" alt="iPhone 16 Pro 128Gb">
+                    <h3>iPhone 16 Pro 128Gb</h3>
+                    <div class="price">83 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>4.5</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/product-5.jpg" alt="iPhone 16 Plus 512Gb">
+                    <h3>iPhone 16 Plus 512Gb</h3>
+                    <div class="price">88 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>5.0</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/product-6.jpg" alt="iPhone 17 Pro Max 2Tb">
+                    <h3>iPhone 17 Pro Max 2Tb</h3>
+                    <div class="price">212 990 ₽</div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>5.0</span>
+                    </div>
+                    <button class="btn">В корзину</button>
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>FirsMarket</h3>
+            <p>FirsMarket — ваш надежный партнер в мире электроники с 2020 года.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul>
+              <li><i class="fas fa-phone"></i> 8 (123) 456-78-90</li>
+              <li><i class="fas fa-envelope"></i> info@firsmarket.ru</li>
+              <li><i class="fas fa-map-marker-alt"></i> г. Волжский, ул. Пушкина, д. Колотушкина</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Мы в соцсетях</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-vk"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2026 FirsMarket. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
