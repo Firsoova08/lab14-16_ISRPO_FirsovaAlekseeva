@@ -8,5 +8,155 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">FirsMarket</a>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="about.html">О нас</a></li>
+          </ul>
+          <div class="nav-icons">
+            <button><i class="fas fa-search"></i></button>
+            <button><i class="fas fa-shopping-cart"></i></button>
+          </div>
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Добро пожаловать в FirsMarket</h1>
+        <p>Лучшие цены в Волжском!</p>
+        <a href="catalog.html" class="btn btn-primary">Посмотреть каталог</a>
+      </div>
+    </section>
+
+    <section class="popular-products">
+      <div class="container">
+        <h2 class="section-title">Популярные товары</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <img src="img/product-1.jpg" alt="iPhone 12 64Gb" />
+            <h3>iPhone 12 64Gb</h3>
+            <div class="price">34 990 ₽</div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.5</span>
+            </div>
+            <button class="btn">В корзину</button>
+          </div>
+
+          <div class="product-card">
+            <img src="img/product-2.jpg" alt="iPhone 13 512Gb" />
+            <h3>iPhone 13 512Gb</h3>
+            <div class="price">51 990 ₽</div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>5.0</span>
+            </div>
+            <button class="btn">В корзину</button>
+          </div>
+
+          <div class="product-card">
+            <img src="img/product-3.jpg" alt="iPhone 15 Plus 128Gb" />
+            <h3>iPhone 15 Plus 128Gb</h3>
+            <div class="price">55 990 ₽</div>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>4.0</span>
+            </div>
+            <button class="btn">В корзину</button>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="catalog.html" class="btn btn-primary">Смотреть все товары</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Наши преимущества</h2>
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <i class="fas fa-truck"></i>
+            <h3>Бесплатная доставка</h3>
+            <p>При заказе от 5000 ₽</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-lock"></i>
+            <h3>Безопасная оплата</h3>
+            <p>SSL-шифрование данных</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Гарантия качества</h3>
+            <p>Официальная гарантия на все товары</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fas fa-headset"></i>
+            <h3>Поддержка 24/7</h3>
+            <p>Всегда на связи, родные</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>FirsMarket</h3>
+            <p>FirsMarket — ваш надежный партнер в мире электроники с 2020 года.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul>
+              <li><i class="fas fa-phone"></i> 8 (123) 456-78-90</li>
+              <li><i class="fas fa-envelope"></i> info@firsmarket.ru</li>
+              <li><i class="fas fa-map-marker-alt"></i> г. Волжский, ул. Пушкина, д. Колотушкина</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Мы в соцсетях</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-vk"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2026 FirsMarket. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelector(".menu-toggle").addEventListener("click", function () {
+        document.querySelector(".nav-menu").classList.toggle("active");
+      });
+    </script>
   </body>
   </html>
