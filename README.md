@@ -73,7 +73,7 @@
 ![Главная страница](img/screenshot-index.png)
 
 ### 📱 Каталог товаров (Tablet)
-![Каталог товаров](img/screenshot-tablet.png)
+![Каталог товаров](img/screenshot-catalog.png)
 
 ### 👥 Страница "О нас" (Mobile)
 ![О нас](img/screenshot-about.png)
