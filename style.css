@@ -104,4 +104,70 @@ body {
     height: 2px;
     background: var(--neon-cyan);
 }
+/* Hero секция */
+.hero {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(135deg, white, var(--neon-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 16px auto;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+    color: var(--bg-primary);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+.btn-outline {
+    border: 2px solid var(--neon-cyan);
+    color: var(--neon-cyan);
+}
+
+.btn-outline:hover {
+    background: rgba(0,240,255,0.1);
+}
+
+/* Заголовки секций */
+.section-title {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 48px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-purple));
+    margin: 16px auto 0;
+}
 
